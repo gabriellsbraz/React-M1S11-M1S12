@@ -1,8 +1,8 @@
 import { ButtonStyled } from "./styled";
 
-function Button({children}) {
+function Button({children, handleClick}) {
     return(
-        <ButtonStyled>
+        <ButtonStyled onClick={handleClick}>
             {children}
         </ButtonStyled>
     )
