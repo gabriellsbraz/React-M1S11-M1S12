@@ -10,8 +10,8 @@ function Header() {
       description: "Home"
     },
     {
-      route: "/",
-      description: "Skils"
+      route: "/portfolio",
+      description: "Portfolio"
     },
     {
       route: "/aboutMe",
