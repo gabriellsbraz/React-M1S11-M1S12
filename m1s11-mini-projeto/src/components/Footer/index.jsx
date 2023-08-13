@@ -1,6 +1,7 @@
 import { FooterStyled } from "./styled";
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
+import Button from "../Button"; 
 function Footer() {
   return (
     <FooterStyled>
