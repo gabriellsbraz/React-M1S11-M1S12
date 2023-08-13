@@ -7,17 +7,28 @@ export const HeaderStyled = styled.header`
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  background-color: #6b5d4d;
+  background: #1A1A1A;
+  color: #fbeed3;
 
   .logo{
     display: flex;
     align-items: center;
     gap: 10px;
-    color: #fbeed3;
-    
+    cursor: pointer;
+    transition: all 0.5s;
+
     &:hover {
-      color: #429398;
+      color: #8257e5;
+      transform: scale(1.03);
     }
+
+    h2 {
+      font-size: 18px;
+      font-style: italic;
+      margin-left: 15px;
+      letter-spacing: 5px;
+    }
+
   }
 
 `
@@ -31,12 +42,14 @@ export const NavStyled = styled.nav`
 
   a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
     color: #fbeed3;
+    transition: all 0.5s;
+
     
     &:hover {
-      color: #429398;
-      text-decoration: underline;
+      color: #8257e5;
+      transform: scale(1.04);
     }
   }
 `

@@ -21,8 +21,8 @@ function Header() {
   return (
     <HeaderStyled>
       <div className="logo">
-        <FaTerminal />
-        <h2>Gabriel de Lima</h2>
+        <FaTerminal size={30} />
+        <h2>GABRIEL</h2>
       </div>
       <NavStyled>
         {
