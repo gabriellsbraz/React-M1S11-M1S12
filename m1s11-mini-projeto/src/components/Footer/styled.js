@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const FooterStyled = styled.footer`
   width: 100%;
   height: 35px;
-  border-top: 1px solid grey;
+  border-top: .5px solid #404040;
   bottom: 0px;
   left: 0px;
   right: 0px;
@@ -14,7 +14,8 @@ export const FooterStyled = styled.footer`
   align-items: center;
   gap: 30px;
   background: #1A1A1A;
-  color: #fbeed3;
+  color: #606060;
+  letter-spacing: 1.5px;
   transition: all 0.05;
 
   h3{
@@ -23,7 +24,7 @@ export const FooterStyled = styled.footer`
 
   a {
     text-decoration: none;
-    color: #dfcdb4;
+    color: #606060;
 
     &:hover {
       color: #8257e5;

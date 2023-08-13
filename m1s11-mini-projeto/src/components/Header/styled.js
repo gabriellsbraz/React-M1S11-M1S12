@@ -11,11 +11,13 @@ export const HeaderStyled = styled.header`
   color: #fbeed3;
 
   .logo{
+    color: #fbeed3;
     display: flex;
     align-items: center;
     gap: 10px;
     cursor: pointer;
     transition: all 0.5s;
+    text-decoration: none;
 
     &:hover {
       color: #8257e5;

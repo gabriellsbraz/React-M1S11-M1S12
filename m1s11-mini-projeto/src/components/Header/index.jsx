@@ -20,10 +20,10 @@ function Header() {
   ]
   return (
     <HeaderStyled>
-      <div className="logo">
+      <Link className="logo" to="/">
         <FaTerminal size={30} />
         <h2>GABRIEL</h2>
-      </div>
+      </Link>
       <NavStyled>
         {
           pages.map(({route, description}) => {
