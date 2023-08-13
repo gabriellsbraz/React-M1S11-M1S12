@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { HeaderStyled, NavStyled } from "./styled";
+import { FaTerminal } from 'react-icons/fa';
+
 
 function Header() {
   const pages = [
@@ -8,13 +10,20 @@ function Header() {
       description: "Home"
     },
     {
+      route: "/",
+      description: "Skils"
+    },
+    {
       route: "/aboutMe",
       description: "About Me"
     }
   ]
   return (
     <HeaderStyled>
-      <h3>Cabeçalho</h3>
+      <div className="logo">
+        <FaTerminal />
+        <h2>Gabriel de Lima</h2>
+      </div>
       <NavStyled>
         {
           pages.map(({route, description}) => {
