@@ -1,8 +1,8 @@
 import { BrowserRouter } from 'react-router-dom';
-import { Footer } from '../footer'
-import { Header } from '../header'
+import { Footer } from '../Footer'
+import { Header } from '../Header'
 import { Container } from './styled'
-import { RoutesApp } from '../../routes'
+import { RoutesApp } from '../../Routes'
 
 function App() {
   

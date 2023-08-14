@@ -1,6 +1,6 @@
 import { HomeStyled } from "./styled"
 import { FaDownload } from "react-icons/fa6";
-import Button from "../../components/button"
+import Button from "../../components/Button"
 
 function Home() {
     return(
