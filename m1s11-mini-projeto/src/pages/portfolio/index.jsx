@@ -20,7 +20,7 @@ function Portfolio() {
         {repos.length > 0 &&
             repos.map(({ name, id, html_url }) => {
             return (
-                <StyledLink key={id} href={html_url}>
+                <StyledLink key={id} href={html_url} target="_blank" rel="noreferrer">
                 <Card>{name}</Card>
                 </StyledLink>
             );
